@@ -1,0 +1,62 @@
+[
+{"type":"header","version":"4.8.5","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"parkpoint"},
+{"type":"table","name":"chatroom","database":"parkpoint","data":
+[
+
+]
+}
+,{"type":"table","name":"comment","database":"parkpoint","data":
+[
+
+]
+}
+,{"type":"table","name":"knex_migrations","database":"parkpoint","data":
+[
+{"id":"1","name":"20190505183824_create_user_table.js","batch":"1","migration_time":"2019-05-05 18:39:40"},
+{"id":"2","name":"20190505184240_encrypt_user_password.js","batch":"2","migration_time":"2019-05-05 18:45:51"},
+{"id":"3","name":"20190507093100_migration_comment.js","batch":"3","migration_time":"2019-05-07 09:38:01"},
+{"id":"4","name":"20190507093817_migration_place.js","batch":"4","migration_time":"2019-05-07 09:50:41"},
+{"id":"5","name":"20190507095359_migration_location.js","batch":"5","migration_time":"2019-05-07 10:13:04"},
+{"id":"6","name":"20190507113103_migration_chatroom.js","batch":"6","migration_time":"2019-05-07 11:32:08"},
+{"id":"7","name":"20190507113327_migration_message.js","batch":"7","migration_time":"2019-05-07 11:41:08"},
+{"id":"8","name":"20190507114405_migration_foreign.js","batch":"8","migration_time":"2019-05-07 12:01:51"},
+{"id":"9","name":"20190507120226_migration_user.js","batch":"9","migration_time":"2019-05-07 12:04:21"},
+{"id":"10","name":"20190507120655_migration_foreignPlace.js","batch":"10","migration_time":"2019-05-07 12:08:15"},
+{"id":"11","name":"20190507120830_migration_foreignLocation.js","batch":"11","migration_time":"2019-05-07 12:25:04"},
+{"id":"12","name":"20190507155937_migration_foreignChatroom.js","batch":"12","migration_time":"2019-05-07 16:03:37"},
+{"id":"13","name":"20190507160404_migration_foreignMessage.js","batch":"13","migration_time":"2019-05-07 16:07:27"}
+]
+}
+,{"type":"table","name":"knex_migrations_lock","database":"parkpoint","data":
+[
+{"index":"1","is_locked":"0"}
+]
+}
+,{"type":"table","name":"location","database":"parkpoint","data":
+[
+
+]
+}
+,{"type":"table","name":"message","database":"parkpoint","data":
+[
+
+]
+}
+,{"type":"table","name":"place","database":"parkpoint","data":
+[
+
+]
+}
+,{"type":"table","name":"users","database":"parkpoint","data":
+[
+{"id":"1","username":"","created_at":"2019-05-28 22:36:06","updated_at":"2019-05-28 22:36:06","salt":"fc0a8e57","password":"bb7fed696c9444e43b39518911e8c02f72dc4d209deaf0705adcdc3d2c3fd79c832be96759a20d636bbf1178f193f2e1fd99624d854d9c01d5316bc5abdc1db3","img":null,"prenom":"renaud","nom":"cini-harris","age":null,"ville":null,"email":"renaudcini@gmail.com"},
+{"id":"2","username":"","created_at":"2019-05-28 22:40:41","updated_at":"2019-05-28 22:40:41","salt":"4dce7a7d","password":"cd5f1f4ced7c3c551d1cf5ccb6ac63a0553b04ece6e46100800e59934949d3845d2ac33ff14af857de0afc4609d40a5bb8abdc87426c1775cf5ac35b64aa375a","img":null,"prenom":"","nom":"","age":null,"ville":null,"email":"lo"},
+{"id":"3","username":"","created_at":"2019-05-29 12:33:35","updated_at":"2019-05-29 12:33:35","salt":"63bd5b0c","password":"078b55ab0bb73f84ebf5e6e9aa8568276d78b4b1719dd94c366530d0147b1e8a6ca387ae82f5cfe94be986efef7727819d60b3005cd2655f1c9849dcf1dc2e3b","img":null,"prenom":"","nom":"","age":null,"ville":null,"email":"marvin_13700@hotmail.fr"},
+{"id":"4","username":"ff","created_at":"2019-05-29 18:21:00","updated_at":"2019-05-29 18:21:00","salt":"20d73d1b","password":"28d9330746a4615471ec7a970904b0b391c02578d8db3407cf524ca47adc4b5ea04dd242ed24b110144773e1924f4562cbe0522939d8897cdbee62af44c2cb13","img":null,"prenom":"v","nom":"","age":null,"ville":null,"email":"ff"},
+{"id":"5","username":"u","created_at":"2019-05-29 18:56:02","updated_at":"2019-05-29 18:56:02","salt":"78d52b90","password":"d42a28bad7b129a7ebfa840eaee3065b659b33bfbac634d554eeb017a0ae57c5fa92369e8ac1cc47cf7ee9df7fa18a1b8c06b75fd962c6b7e8e8a6f71cef07ee","img":null,"prenom":"","nom":"","age":null,"ville":null,"email":"faou"},
+{"id":"6","username":"re","created_at":"2019-06-01 13:04:32","updated_at":"2019-06-01 13:04:32","salt":"6b7bd20a","password":"41a6c441f49233748651614b28d3f69bcb1057c03e3688ebfcb0c5182c961e36bf9141da3d107df9a16bbd1d4f1672a991dbc66407c45c051d696356490063c8","img":null,"prenom":"re","nom":"re","age":null,"ville":null,"email":"re"},
+{"id":"7","username":"eee","created_at":"2019-06-01 13:09:12","updated_at":"2019-06-01 13:09:12","salt":"d3c449b8","password":"9198f5240891bc58917bf2a1076d76230c1811380d9ba6950a2b9984cd8425d9e766061ba20e06bfd9ccc18e6d736c46638a8c0dbc8eee14d13297ebd2a4b35a","img":null,"prenom":"ee","nom":"ee","age":null,"ville":null,"email":"ee"}
+]
+}
+]

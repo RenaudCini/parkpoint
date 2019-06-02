@@ -1,0 +1,12 @@
+.navbar-light{
+  background-color:rgb(10, 49, 134) ;
+}
+nav ul li a {
+  color: white;
+}
+ nav ul li but {list-style: none; }
+
+form label{
+color: bisque
+
+}

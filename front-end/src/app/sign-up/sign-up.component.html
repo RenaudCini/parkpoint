@@ -1,0 +1,44 @@
+<app-login></app-login>
+<form (ngSubmit)="onSubmit(form)" #form="ngForm">
+  <div class="row">
+
+      <div class="col">
+          <div class="d-flex">
+              <label for="" class="mr-2 mt-2">email</label>
+              <input ngModel name="email" type="text" class="form-control" placeholder="email">
+          </div>
+        </div>
+
+    <div class="col">
+      <div class="d-flex">
+          <label for="" class="mr-2 mt-2">username</label>
+          <input ngModel name="username" type="text" class="form-control" placeholder="First name">
+      </div>
+    </div>
+    <br>
+
+    <div class="col">
+        <div class="d-flex">
+            <label for="" class="mr-2 mt-2">mdp</label>
+            <input ngModel  name ="password" type="text" class="form-control" placeholder="password">
+        </div>
+      </div>
+      <br>
+      <div class="col">
+        <div class="d-flex">
+            <label for="" class="mr-2 mt-2">firstname</label>
+            <input ngModel  name ="prenom" type="text" class="form-control" placeholder="password">
+        </div>
+      </div>
+      <br>
+      <div class="col">
+        <div class="d-flex">
+            <label for="" class="mr-2 mt-2">name</label>
+            <input ngModel  name ="nom" type="text" class="form-control" placeholder="password">
+        </div>
+      </div>
+    <div class="col">
+      <button class="btn btn-success ml-3"  type ="submit">S'inscrire</button>
+    </div>
+  </div>
+</form>

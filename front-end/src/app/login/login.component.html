@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg navbar-light  shadow-sm mb-3 color-nav">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav  justify-content-end">
+            <li><button class="btn btn-danger" (click)="OnSignOut()" *ngIf="authStatus">Se déconnecter</button>
+            </li>
+            <li routerLinkActive="active" class="nav-item" *ngIf="authStatus">
+              <a routerLink="profil" class="nav-link">Profil</a>
+            </li>
+            <li routerLinkActive="active" class="nav-item" *ngIf="authStatus">
+              <a routerLink="search" class="nav-link">Chercher</a>
+            </li>
+            <li routerLinkActive="active" class="nav-item" *ngIf="authStatus">
+              <a routerLink="propound" class="nav-link">Proposer</a>
+            </li>
+            <li routerLinkActive="active" class="nav-item" *ngIf="authStatus">
+              <a routerLink="message" class="nav-link">Message</a>
+            </li>
+            <li *ngIf="!authStatus">
+              <div class="ds-flex formulair_connexion" *ngIf="!authStatus">
+                <form (ngSubmit)="onSubmit(form)" #form="ngForm">
+                  <div class="row">
+                    <div class="col">
+                      <div class="d-flex">
+                          <label for="" class="mr-2 mt-2">email</label>
+                          <input ngModel name="email" type="text" class="form-control" placeholder="First name">
+                      </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="d-flex">
+                            <label for="" class="mr-2 mt-2">mdp</label>
+                            <input ngModel  name ="password" type="text" class="form-control" placeholder="password">
+                        </div>
+                      </div>
+                    <div class="col">
+                      <button class="btn btn-success ml-3"   type ="submit">Se connecter</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
